@@ -64,3 +64,101 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+h1 {
+	font-size: 40px;
+	margin: 20px 0;
+	text-align: center;
+  }
+  
+  h2 {
+	font-size: 26px;
+	margin: 20px 0;
+
+  }
+  
+  p {
+	line-height: 4;
+	margin: 15px 0;
+  }
+	
+	div {
+		/*border: 1px solid blue;	*/
+		
+	}
+	hr {
+		width: 600px;
+	}
+
+ 
+#center {
+	width: 300px;
+}
+ .middle-img{
+	 width: 600px;
+ }
+.container {
+	width: 600px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+  }
+.container header {
+	position: relative;
+  }
+  
+ 
+  
+  .container header nav {
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left: 0;
+  }
+
+  .container header nav a {
+	
+		
+		color: gray;
+		/*padding: 14px 25px;*/
+		text-align: center; 
+		text-decoration: none;
+		display: inline-block;
+	margin: 0 5px;
+	
+  }
+  #1of2, #2of2 {
+	height: 50px;
+	text-align: center;
+	display: inline-block;
+	width: 50%;
+	margin-right:-2px;
+	position: relative;
+  }
+
+	
+	
+	#div1, #div2, #div3 {
+	height: 50px;
+	/*padding: 0 auto;*/
+	display: inline-block;
+	width:33.33%;
+	margin-right:-4px;
+  }
+  .logo {
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	right: 0;
+  }
+  #boxlink{
+	background-color: #f44336;
+	color: white;
+	padding: 14px 25px;
+	text-align: center; 
+	text-decoration: none;
+	display: inline-block;
+  }
+  footer{
+	  text-align: center;
+	  font-size: 12px;
+  }
